@@ -8,7 +8,7 @@
 </p>
 
 ## Introduction
-Laravel 8 starter kit with some package that provide you to build website more faster. 
+Laravel 8 starter kit with Bootstrap 4 and some package that provide you to build website more faster. 
 
 ## Include
 - <a href="https://laravel-livewire.com/">Laravel Livewire 2.0</a>
