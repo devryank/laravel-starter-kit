@@ -5,9 +5,12 @@ namespace App\Http\Livewire\Admin\Role;
 use App\Models\Role;
 use Livewire\Component;
 use App\Models\Permission;
+use Livewire\WithPagination;
 
 class Index extends Component
 {
+    use WithPagination;
+
     public $title = 'Roles';
     public $search;
     public $paginate = 10;

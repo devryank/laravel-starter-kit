@@ -2,11 +2,14 @@
 
 namespace App\Http\Livewire\Admin\Permission;
 
-use App\Models\Permission;
 use Livewire\Component;
+use App\Models\Permission;
+use Livewire\WithPagination;
 
 class Index extends Component
 {
+    use WithPagination;
+
     public $title = 'Permissions';
     public $search;
     public $paginate = 10;
